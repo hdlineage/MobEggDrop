@@ -34,7 +34,7 @@ public final class MobEggDrop extends JavaPlugin {
         for (Material key : Material.values()){
             String key_string = key.toString();
             if(!key_string.startsWith("LEGACY_") && key_string.endsWith("_SPAWN_EGG")){
-                config.addDefault(key_string.replace("_SPAWN_EGG",""), 5.0);
+                config.addDefault(key_string.replace("_SPAWN_EGG",""), 2.5);
             }
         }
 
