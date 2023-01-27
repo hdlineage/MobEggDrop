@@ -1,7 +1,7 @@
 name: MobEggDrop
 version: ${project.version}
 main: ca.henrychang.mobeggdrop.MobEggDrop
-api-version: 1.16
+api-version: 1.19
 authors: [ hdlineage ]
 description: Enables mobs to drop spawn eggs with customizable drop rate.
 website: henrychang.ca
